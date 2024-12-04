@@ -1,0 +1,336 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    background-color: rgb(5, 5, 23);
+    color:rgb(220, 218, 218);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+main{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+/* format imatge principal */
+.retrato{
+    width: 60%;
+    max-width: 500px;
+    /* background-color:rgba(255, 188, 81, 0.196) ; */
+    background-image:radial-gradient(rgba(255, 188, 81, 0.991),rgba(5, 5, 23, 0.559),rgb(5, 5, 23))
+}
+.foco{
+    display: none;
+}
+
+/* format text explicatiu */
+section{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content:center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px black;
+}
+/* format imatges inferiors */
+.imgenlace{
+    width: 250px;
+    margin-right: 20px;
+    transition: width 1s;
+    z-index: 10;
+}
+.imgDE{
+    max-width: 250px;
+}
+
+.cuadro:hover .imgenlace{
+    width: 300px;
+}
+.cont_img{
+    width: 90%;
+    height: 300px;
+}
+.text_visible{
+    position: relative;
+    bottom:70%;
+    text-align: center;
+    text-shadow:1px 1px black ;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+h1{
+    border-bottom: 3px solid rgb(255, 188, 81);
+    color: white;
+}
+h2{
+    color: white;
+}
+/* Disseny pàgina de projectes */
+.anidada-main{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.projectes-box{
+    width: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px;
+    margin-top: 20px;
+}
+.projectes-img{
+    border-radius: 15px 15px;
+    display: block;
+    margin: auto;
+    max-width: 70%;
+}
+.titol-pag{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+/* .div-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+.projecte-titol{
+    width: 70%;
+    margin-left: 50px;
+    text-align: center;
+}
+.projectes-text{
+    margin-left: 50px;
+    width: 70%;
+   text-align: center;
+}
+.projectes-box:hover{
+    background-color:rgb(29, 35, 47);
+    box-shadow: 5px 5px 0px 0px rgb(255, 188, 81);
+}
+/* Disseny específic pàgina de contacte (sobre mi) */
+.contacte-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+i{
+    width: 20%;
+}
+.contacte-img{
+    width: 50px;
+    margin: 20px;
+}
+.contacte-box:hover{
+    background-color:rgb(29, 35, 47);
+    box-shadow: 5px 5px 0px 0px rgb(255, 188, 81);
+}
+.contacte-text{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.enllaç{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icono{
+    margin: 5px;
+}
+/* Disseny formulari de contacte */
+.form-missatge{
+    width: 500px;
+    height: 300px;
+}
+.input{
+    border-radius: 15px;
+    margin: 10px;
+    border: 1px solid rgb(255, 188, 81);
+    background-color: grey;
+}
+.btn-envia{
+    width: 40%;
+    height: 35px;
+    border: 1px solid rgb(255, 188, 81);
+    background-color: rgb(29, 35, 47);
+    color: white;
+}
+/* disseny newsletter */
+.nl-body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+}
+.nl-header{
+    background-image: url(../public/media/newsletter-header.jpg);
+    display: flex;
+    flex-direction: column;
+    text-shadow:2px 2px black;
+    width: 100%;
+    margin: 0;
+}
+.nl-cap-titol{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(255, 188, 81);
+    margin: 0;
+}
+.nl-header,h4{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 20px;
+    color: white;
+}
+.nl-header,h3{
+    text-align: right;
+    margin-right: 15px;
+}
+.nl-box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nl-titol{
+    text-align: center;
+    color:rgb(0, 24, 86);
+}
+.nl-img{
+    width: 20%;
+    margin-right: 15px;
+}
+.nl-contingut{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.btn-estalviar{
+    background-color:rgb(255, 188, 81) ;
+    color: black;
+    font-weight: bolder;
+    width: fit-content;
+    padding: 10px 40px 10px 40px;
+    border-radius: 15px;
+    margin: 15px auto;
+    text-decoration: none;
+}
+.btn-estalviar:hover{
+   box-shadow: 2px 2px black;
+   background-color:rgb(217, 138, 12)  ;
+}
+.nl-footer{
+    margin-top: 30px;
+    background-color: rgb(179, 177, 177);
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* Fins aquí ha sigut el disseny en la forma més gran de pantalla, ara començarem les mediaquerys */
+/* Pantalles mitjanes (tablet) */
+@media screen and (min-width:577px)and (max-width:991px) {
+    /* art director pàgina principal */
+    .grande{
+        display: none;
+    }
+    .foco{
+        display: block;
+        ;
+    }
+    /* overflow presentació */
+    .overflow{
+        width: 100%;
+        font-size: 1rem;
+    }
+  /* enllaços pagina principal adaptables */
+   .cont_img{
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+/* Pantalles petites (mòbil) */
+@media  screen and (max-width:576px) {
+    /* canviar el tamany dels titols */
+    h1{
+        font-size: 1.5rem;
+    }
+    /* eliminar explicació del header */
+    header >p{
+        display: none;
+    }
+    /* reordenar la presentació de la pàgina principal */
+    .presentacio{
+        display: flex;
+        flex-direction: column;
+
+    }
+    /* utilitza art director amb la imatge de la pàgina principal */
+    .grande{
+        display: none;
+    }
+    .foco{
+        display: block;
+    }
+    /* canviar la disposició dels enllaços pàgina principal */
+    .cont_img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* ajustar el format de la pàgina de contacte */
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .input{
+        width: 80%;
+    }
+    /* ajustar el format de la newsletter */
+    /* format caixa */
+    .nl-contingut{
+        display: flex;
+        flex-direction: column;
+    }
+    .nl-img{
+        width: 60%;
+        margin: auto;
+    }
+    /* ajustar tamany dels titols */
+    .nl-cap-titol{
+        font-size: 3rem;
+    }
+    .nl-body > h4{
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    .nl-header >h3{
+        display: none;
+    }
+}

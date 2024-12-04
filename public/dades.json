@@ -1,0 +1,78 @@
+{
+   "projectes":[
+            { 
+                "id":1,
+                "nom":"PrimeVideo",
+                "img":"./media/webprimevideo.png",
+                "url":"https://moonlit-swan-396a10.netlify.app/",
+                "descripcio":" Projecte creat l'octubre de 2023 com a part de LLM per realitzar una prova d'autoevaluació, on es demanaba crear una copia de la web de la pel·licula LA VIDA ES DURA de PrimeVideo"
+            },
+            { 
+                "id":2,
+                "nom":"Joc de Rol",
+                "img":"./media/webjuegorol.png",
+                "url":"https://euphonious-starburst-5d7a9d.netlify.app/",
+                "descripcio":"  Projecte creat el gener de 2023, joc de rol amb augment d'estadìstiques i pressa de desicions, forma part d'una tasca opcional de AW on es demanaba crear un joc de rol aplicant JavaScript"
+            },
+            { 
+                "id":3,
+                "nom":"El País",
+                "img":"./media/webelpais.png",
+                "url":"https://enchanting-empanada-783aeb.netlify.app/",
+                "descripcio":" Projecte creat el desembre de 2022, com a part d'un exercici d'AW on es demanaba que copiesim una pàgina web en concret, en el meu cas em va tocar copiar la pàgina del diari del País (versió antiga)"
+            },
+            { 
+                "id":4,
+                "nom":"ING Direct",
+                "img":"./media/ingnl.png",
+                "url":"https://admirable-horse-5da9e6.netlify.app/",
+                "descripcio":" Aquest projecte forma part dels exercicis opcionals de LLM (ASIX) 2023, on es demanaba  copia el disseny d'un newsletter"
+            },
+            { 
+                "id":5,
+                "nom":"E-bay",
+                "img":"./media/ebay.png",
+                "url":"https://jolly-cajeta-0965a8.netlify.app/",
+                "descripcio":"Aquest projecte forma part dels exercicis opcionals de LLM (ASIX) 2023, on es demanaba  copia el disseny d'un newsletter en aquest cas d'Ebay"
+            },
+            { 
+            "id":6,
+            "nom":"Marvel",
+            "img":"./media/marvelanillos.png",
+            "url":"https://resonant-hotteok-7670b2.netlify.app/",
+            "descripcio":"Aquest projecte forma part dels exercicis opcionals de LLM (ASIX) 2023, on es demanaba  copia el disseny de la pàgina de presentació d'una pel·lícula"
+            }
+    ],
+
+    "rrss":[
+        {
+            "id":1,
+            "nom" : "Git-Hub",
+            "logo" : "faGithub",
+            "pagina" : "https://github.com",
+            "descripcio" :"Descobreix els projectes en que estic involucrat actualment i els últims projectes desarrollats"
+        },
+        {
+            "id":2,
+            "nom" : "Linked-in",
+            "logo" : "faLinkedin",
+            "pagina" : "https://www.linkedin.com/feed/",
+            "descripcio" :"segueix el dia a dia de la meva trajectoria professional i els cursos que realitzo"
+        },
+        {
+            "id":3,
+            "nom" : "Facebook",
+            "logo" : "faFacebook",
+            "pagina" : "https://www.facebook.com/",
+            "descripcio" :"Segeix el meu dia a dia, comenta les meves publicacions i participa"
+        },
+        {
+            "id":4,
+            "nom" : "Instagram",
+            "logo" : "faInstagram",
+            "pagina" : "https://www.instagram.com/",
+            "descripcio" :"Si vols estar al dia dels ultims trucs en programació, disseny de pàgines web y memes varis, no dubtis en seguir-me"
+        }
+
+    ]
+}
